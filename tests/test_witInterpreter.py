@@ -3,12 +3,13 @@ from unittest import TestCase
 from app import WitInterpreter
 from random import choice
 
+token = '<your-token>'
+
 class TestWitInterpreter(TestCase):
 	def test_parse(self):
-		token = '6ZSNEXDJIX2LVAZNQKGBBY6FVBIGQHPR'
 		interpreter = WitInterpreter(token)
-		queries = ['fff']
+		queries = ['hi','no intent for this one','hello']
 		response = interpreter.parse(choice(queries))
 		print(response)
 
-		self.addTypeEqualityFunc(response,dict)
+		self.addTypeEqualityFunc(type(response),dict)
