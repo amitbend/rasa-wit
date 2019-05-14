@@ -1,6 +1,5 @@
 # Wit Interpreter
 
-
 A `rasa_core` [Interpreter](http://rasa.com/docs/core/api/interpreter/) using Wit's API so you can build your models on wit.ai's platform and manage the dialog on **Rasa Core**
 
 ## Installation

@@ -1,11 +1,11 @@
 from unittest import TestCase
 
-from app import WitInterpreter
+from rasa_wit.interperter import WitInterpreter
 from random import choice
 
-# token = '<your-token>'
-token = '6ZSNEXDJIX2LVAZNQKGBBY6FVBIGQHPR'
+token = '<your-token>'
 
+#this is not exactly unit test - I know
 
 class TestWitInterpreter(TestCase):
 	def test_parse(self):
