@@ -1,6 +1,11 @@
 # Wit Interpreter
 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![PyPI version fury.io](https://badge.fury.io/py/rasa-wit.svg)](https://pypi.python.org/pypi/rasa-wit/)
+
+
 A `rasa_core` [Interpreter](http://rasa.com/docs/core/api/interpreter/) using Wit's API so you can build your models on wit.ai's platform and manage the dialog on **Rasa Core**
+
 
 ## Installation
 
